@@ -24,4 +24,4 @@ r = 0.05
 total_down_payment = cost_of_dream_home * portion_down_payment
 monthly_saved_salary = (yearly_salary/12) * portion_saved 
 amount_saved = amount_saved + monthly_saved_salary
-months = total_down_payment / 
+months = total_down_payment /
