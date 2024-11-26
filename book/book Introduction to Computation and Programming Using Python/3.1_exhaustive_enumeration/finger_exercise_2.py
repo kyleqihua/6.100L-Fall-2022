@@ -42,6 +42,8 @@ if num < 0:
 for i_root in range(num):
     for i_pwr in range(2, 6):
         if pow(i_root, i_pwr) == num:
+            if negative_flag:
+                i_root = -i_root
             print("the root is", i_root, "and the pwr is", i_pwr)
             pair_flag = True 
 if pair_flag == False:
